@@ -1,6 +1,16 @@
-# jsp-servlet-hibernate-mysql-tutorial
-User Management web application using JSP, Servlet, and Hibernate. This web application manages a collection of users with the basic feature: list, insert, update, delete (or CURD operations - Create, Update, Read and Delete).
+# user-mgmt-jsp-servlet-hibernate-mysql
+User Management web app using JSP, Servlet, Hibernate and MySQL. Performs basic CRUD operations.
 
-JSP Servlet Hibernate CRUD Example - 
+Reference: https://www.javaguides.net/2019/03/jsp-servlet-hibernate-crud-example.html
 
-https://www.javaguides.net/2019/03/jsp-servlet-hibernate-crud-example.html
+File hierarchy:
+
+src
+--> User.java
+--> HibernateUtil.java
+--> UserDAO.java
+--> UserServlet.java
+WebContent
+--> user-list.jsp
+--> user-form.jsp
+--> Error.jsp
